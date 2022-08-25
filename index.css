@@ -1,0 +1,54 @@
+* {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+.banner {
+   background-image: url('img/bg7.webp');
+   background-repeat: no-repeat;
+   background-size: 1500px ;
+   margin-top: 5px;
+   display: flex;
+   height: 400px;
+}
+#logo {
+    width: 400px;
+    height: 250px;    
+}
+#tittle {
+   margin-left: 150px;
+   font-family: 'Caveat', cursive;
+   font-size: 60px;
+   font-weight: bold;
+   color: #eee;
+}
+.order-btn {
+    margin: 10px;
+    margin-left: 37%;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #eee;
+}
+.container {
+    margin: 30px auto;
+}
+.order-search {
+    width: 500px;
+    margin: 80px;
+    margin-left: 600px;
+}
+.order-status-container {
+    border: 1px;
+    width: 700px;
+    border-radius: 20px;
+    background-color: #eee;
+    padding: 5px;
+}
+.order-status-btn {
+    display: block;
+    margin: 10px auto;
+    width: 600px;
+    pointer-events: none; 
+}
+#order-status-id {
+    margin-left: 180px;
+}

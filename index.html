@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+    <title>Pizza Order Management</title>
+</head>
+<body>
+    <div class="banner">
+        
+        <div class="order-search">
+            <h1 id="tittle">Pizza Hut</h1>
+            <input type="text" id="order-id" class="form-control" placeholder="Enter Order Id" >
+            <button onclick="executOrder()" class="btn btn-outline-secondary order-btn" type="button">Order</button>
+        </div>
+    </div>
+    <div class="container order-status-container">
+          <h3 id="order-status-id"></h3>
+          <button type="button" class="btn btn-light btn-lg order-status-btn" id="order-placed">Order placed</button>
+          <button type="button" class="btn btn-light btn-lg order-status-btn">Chef received the order and started preparing</button>
+          <button type="button" class="btn btn-light btn-lg order-status-btn">Pizza Sauce added</button>
+          <button type="button" class="btn btn-light btn-lg order-status-btn">First layer of cheeze added</button>
+          <button type="button" class="btn btn-light btn-lg order-status-btn">Toppings added</button>
+          <button type="button" class="btn btn-light btn-lg order-status-btn">Second layer of cheeze added</button>
+          <button type="button" class="btn btn-light btn-lg order-status-btn">Pizza baked!</button>
+          <button type="button" class="btn btn-light btn-lg order-status-btn">Oregano added and packed</button>
+          <button type="button" class="btn btn-light btn-lg order-status-btn">Package received at counter</button>
+          <button type="button" class="btn btn-light btn-lg order-status-btn">The order is ready and handed over to the Zomato delivery guy!</button>
+    </div>
+    <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>  
+</body>
+</html>
